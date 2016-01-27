@@ -97,4 +97,6 @@ API.getConnections("your-token", new PeachCallback() {
   }
 });
 ```
+# Gradle Dependency
+I'm not sure how to do this but I want people to be able to add this to their projects as a Gradle dependency like this: `compile 'com.example:peach-api-java:0.0.0'` Can someone please help?
 

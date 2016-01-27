@@ -24,10 +24,10 @@ public class Post {
 	public void setId(String id) {
 		this.id = id;
 	}
-	public Message[] getMessage() {
+	public Message[] getMessages() {
 		return message;
 	}
-	public void setMessage(Message[] message) {
+	public void setMessages(Message[] message) {
 		this.message = message;
 	}
 	public Integer getCommentCount() {

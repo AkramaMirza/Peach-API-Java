@@ -46,7 +46,7 @@ public class API {
 		thread.start();		
 	}
 	
-	public static void register(String email, String name, String password, PeachCallback callback) {
+	public static void register(String email, String username, String password, PeachCallback callback) {
 		Thread thread = new Thread(new Runnable() {
 			
 			@Override
@@ -55,7 +55,7 @@ public class API {
 				JSONObject fields = new JSONObject();
 				try {
 					fields.put("email", email);
-					fields.put("name", name);
+					fields.put("name", username);
 					fields.put("password", password);
 					HashMap<String, String> headers = new HashMap<String, String>();
 					headers.put("Accept", "application/json");

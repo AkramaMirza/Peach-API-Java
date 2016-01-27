@@ -1,4 +1,6 @@
 public class Message {
+	public static final String TYPE_TEXT = "text";
+	
 	private String type;
 	private String text;
 	public Message(String type, String text) {

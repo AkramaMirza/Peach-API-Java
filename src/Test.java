@@ -13,7 +13,7 @@ public class Test {
 					@Override
 					public void connectionsDone(List<Connection> connections, boolean success) {
 						// TODO Auto-generated method stub
-						System.out.println(connections.get(0).getPosts()[0].getMessage()[0].getText());
+						System.out.println(connections.get(0).getPosts()[0].getMessages()[0].getText());
 					}
 
 					
